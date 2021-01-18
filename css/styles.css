@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #005a66;
+  color: #007c7c;
   text-decoration: none;
   background-color: transparent;
 }
@@ -9799,7 +9799,9 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #005a66 !important;
+  background: linear-gradient(to bottom right, #005a66, #007c7c); !important;
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10024,6 +10026,12 @@ h1 {
   line-height: 1;
 }
 
+h2 {
+  background: linear-gradient(to bottom right, #005a66, #007c7c); !important;
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -10090,7 +10098,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-image: linear-gradient(to bottom right, #005a66, #007c7c);
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
